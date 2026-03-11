@@ -1,0 +1,104 @@
+Experiment 1
+
+=============================
+Configuration 1
+NX=250 NY=100
+=============================
+Particles: 100
+Total interpolation time = 0.000016 seconds
+Particles: 10000
+Total interpolation time = 0.001413 seconds
+Particles: 1000000
+Total interpolation time = 0.114125 seconds
+Particles: 100000000
+Total interpolation time = 8.867798 seconds
+Particles: 1000000000
+Total interpolation time = 88.238051 seconds
+
+=============================
+Configuration 2
+NX=500 NY=200
+=============================
+Particles: 100
+Total interpolation time = 0.000010 seconds
+Particles: 10000
+Total interpolation time = 0.000971 seconds
+Particles: 1000000
+Total interpolation time = 0.107198 seconds
+Particles: 100000000
+Total interpolation time = 11.868919 seconds
+Particles: 1000000000
+Total interpolation time = 108.285806 seconds
+
+=============================
+Configuration 3
+NX=1000 NY=400
+=============================
+Particles: 100
+Total interpolation time = 0.000030 seconds
+Particles: 10000
+Total interpolation time = 0.002662 seconds
+Particles: 1000000
+Total interpolation time = 0.120470 seconds
+Particles: 100000000
+Total interpolation time = 11.514068 seconds
+Particles: 1000000000
+Total interpolation time = 168.982556 seconds
+
+
+Experiment 2
+
+
+=============================
+Configuration 1
+NX=250 NY=100
+=============================
+Particles: 100000000
+Total interpolation time = 9.250301 seconds
+
+=============================
+Configuration 2
+NX=500 NY=200
+=============================
+Particles: 100000000
+Total interpolation time = 11.293444 seconds
+
+=============================
+Configuration 3
+NX=1000 NY=400
+=============================
+Particles: 100000000
+Total interpolation time = 10.981462 seconds
+
+
+Experiment 3
+
+Parallel 
+
+NX=1000 NY=400 Points=14000000 Iter=10 Threads=4
+Iter    Interpolation   Mover           Total
+1       0.167504        0.057057        0.224561
+2       0.168114        0.057145        0.225259
+3       0.169963        0.059591        0.229554
+4       0.171165        0.058465        0.229630
+5       0.170698        0.057190        0.227887
+6       0.477765        0.068860        0.546626
+7       0.242723        0.063124        0.305846
+8       0.163616        0.060276        0.223892
+9       0.173466        0.060024        0.233491
+10      0.222388        0.059342        0.281730
+
+Serial
+
+NX=1000 NY=400 Points=14000000 Iter=10 Threads=4
+Iter    Interpolation   Mover           Total
+1       0.176388        0.271089        0.447478
+2       0.175401        0.275118        0.450519
+3       0.175579        0.279971        0.455549
+4       0.190444        0.308221        0.498666
+5       0.197623        0.309211        0.506835
+6       0.197119        0.331004        0.528123
+7       0.215100        0.307398        0.522498
+8       0.198551        0.308346        0.506897
+9       0.197282        0.307960        0.505242
+10      0.199744        0.333854        0.533598
