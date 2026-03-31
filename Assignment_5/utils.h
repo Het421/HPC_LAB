@@ -1,0 +1,12 @@
+#ifndef UTILS_H
+#define UTILS_H
+#include <time.h>
+#include "init.h"
+
+void interpolation(double *mesh_value, Points *points);
+void mover_serial_immediate(Points *points, double deltaX, double deltaY);
+void save_mesh(double *mesh_value);
+void mover_serial_deferred(Points *points, double deltaX, double deltaY);
+void mover_parallel_immediate(Points *points, double deltaX, double deltaY);
+void mover_parallel_deferred(Points *points, double deltaX, double deltaY);
+#endif
