@@ -1,0 +1,10 @@
+# Assignment 07 - Cluster Results
+# Config: CONFIG_B  NX=250  NY=100  NUM_Points=5000000  Maxiter=10
+# Speedup and Efficiency computed relative to T=1 (serial baseline)
+
+environment,NX,NY,NUM_Points,Maxiter,threads,interpolation_time_s,normalization_time_s,mover_time_s,denormalization_time_s,total_algorithm_time_s,speedup,efficiency,voids
+cluster_parallel,250,100,5000000,10,1,1.753577754,0.001923978,2.014028743,0.000850499,3.770380974,1.000000,1.000000,20
+cluster_parallel,250,100,5000000,10,2,0.926847771,0.001499727,1.052009702,0.001033485,1.981390685,1.902896,0.951448,20
+cluster_parallel,250,100,5000000,10,4,0.495032981,0.001159266,0.556139365,0.000556439,1.052888051,3.580989,0.895247,20
+cluster_parallel,250,100,5000000,10,8,0.305367649,0.001377910,0.319675863,0.000478193,0.626899615,6.014330,0.751791,20
+cluster_parallel,250,100,5000000,10,16,0.239917293,0.002461061,0.266674876,0.002850249,0.511903480,7.365414,0.460338,20

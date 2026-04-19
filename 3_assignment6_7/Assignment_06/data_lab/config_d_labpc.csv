@@ -1,0 +1,10 @@
+# Assignment 06 - Lab PC Results
+# Config: CONFIG_D  NX=500  NY=200  NUM_Points=20000000  Maxiter=10
+
+environment,NX,NY,NUM_Points,Maxiter,threads,execution_time_s,speedup,efficiency
+labpc_serial,500,200,20000000,10,1,1.886114,1.000000,1.000000
+labpc_parallel,500,200,20000000,10,1,1.896271,0.994644,0.994644
+labpc_parallel,500,200,20000000,10,2,0.968890,1.946675,0.973338
+labpc_parallel,500,200,20000000,10,4,0.516855,3.649213,0.912303
+labpc_parallel,500,200,20000000,10,8,0.521788,3.614713,0.451839
+labpc_parallel,500,200,20000000,10,16,0.480132,3.928324,0.245520

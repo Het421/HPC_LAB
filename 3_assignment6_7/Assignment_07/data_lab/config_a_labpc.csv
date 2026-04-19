@@ -1,0 +1,10 @@
+# Assignment 07 - Lab PC Results
+# Config: CONFIG_A  NX=250  NY=100  NUM_Points=900000  Maxiter=10
+# Speedup and Efficiency computed relative to T=1 (serial baseline)
+
+environment,NX,NY,NUM_Points,Maxiter,threads,interpolation_time_s,normalization_time_s,mover_time_s,denormalization_time_s,total_algorithm_time_s,speedup,efficiency,voids
+labpc_parallel,250,100,900000,10,1,0.100410000,0.000573000,0.109835000,0.000314000,0.211131000,1.000000,1.000000,2
+labpc_parallel,250,100,900000,10,2,0.053902000,0.000342000,0.058126000,0.000209000,0.112578000,1.875420,0.937710,2
+labpc_parallel,250,100,900000,10,4,0.029623000,0.000224000,0.031289000,0.000118000,0.061253000,3.446868,0.861717,2
+labpc_parallel,250,100,900000,10,8,0.029153000,0.000159000,0.029906000,0.000102000,0.059320000,3.559187,0.444898,2
+labpc_parallel,250,100,900000,10,16,0.030282000,0.001205000,0.028103000,0.000626000,0.060217000,3.506169,0.219136,2

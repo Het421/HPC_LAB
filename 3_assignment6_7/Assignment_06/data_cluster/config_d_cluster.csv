@@ -1,0 +1,10 @@
+# Assignment 06 - Cluster Results
+# Config: CONFIG_D  NX=500  NY=200  NUM_Points=20000000  Maxiter=10
+
+environment,NX,NY,NUM_Points,Maxiter,threads,execution_time_s,speedup,efficiency
+cluster_serial,500,200,20000000,10,1,4.800000,1.000000,1.000000
+cluster_parallel,500,200,20000000,10,1,4.899471,0.979698,0.979698
+cluster_parallel,500,200,20000000,10,2,2.462383,1.949331,0.974666
+cluster_parallel,500,200,20000000,10,4,1.339107,3.584478,0.896120
+cluster_parallel,500,200,20000000,10,8,0.757308,6.338240,0.792280
+cluster_parallel,500,200,20000000,10,16,0.657953,7.295354,0.455960
